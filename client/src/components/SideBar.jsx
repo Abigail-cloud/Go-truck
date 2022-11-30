@@ -13,7 +13,7 @@ import {
         <div
       style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
     >
-      <CDBSidebar textColor="#fff" backgroundColor="#333">
+      <CDBSidebar textColor="#8D4D92" backgroundColor="#fff">
         <CDBSidebarHeader >
           <a
             href="/"
@@ -26,8 +26,8 @@ import {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+            <NavLink exact to="/" activeClassName="activeClicked" className="Dashboard">
+              <CDBSidebarMenuItem icon="columns" >Dashboard</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/tables" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table">Projects</CDBSidebarMenuItem>

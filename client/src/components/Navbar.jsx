@@ -16,9 +16,10 @@ const Navbar = () => {
     </form>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">New Project</button>
   </div>
-  <ul class="navbar-nav mr-auto">
+  <ul class="navbar-nav mr-auto list">
   <li class="nav-item active">
-    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <i class="fa-duotone fa-bell"></i>
+    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Link</a>
