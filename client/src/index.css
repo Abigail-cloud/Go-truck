@@ -1,0 +1,19 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* .search{
+  padding-right:50px ;
+} */
+.person{
+  width: 40px;
+}
+
+NavLink{
+  color: blueviolet;
+}
+
